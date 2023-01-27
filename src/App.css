@@ -6,6 +6,20 @@
   list-style-type: none;
 }
 
+#head{
+  display: flex;
+  justify-content: space-around;
+}
+#head > h3{
+  max-width: 200px;
+}
+#head >div{
+  margin-top: 20px;
+}
+#image{
+  max-width: 250px;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
